@@ -1,0 +1,31 @@
+{
+  "name": "employee_management",
+  "version": "1.0.0",
+  "description": "Simple CRUD Operations using Mongo DB with Node JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "Kanchana Devi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1"
+  }
+}

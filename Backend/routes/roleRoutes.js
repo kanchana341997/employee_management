@@ -1,5 +1,5 @@
 import express from "express";
-import { createRole, getAllRoles, getRoleById, updateRole, deleteRole} from "../controllers/roleController.js";
+import { createRole, getAllRoles, getRoleById, updateRole, deleteRole, updateRolebyname} from "../controllers/roleController.js";
 
 const router = express.Router();
   
@@ -17,6 +17,9 @@ const router = express.Router();
 
     // Delete Role by Id
     router.delete('/roles/:role_id', deleteRole);
+
+    // PATCH route to update role_name and dept_name by role_id
+    router.patch('/roles/:role_id', updateRolebyname);
 
     export default router;
   
